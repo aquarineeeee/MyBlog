@@ -277,21 +277,21 @@ aside:
   button: true
   mobile: true
   # Position: left / right
-  position: right
+  position: left
   display:
     archive: true
     tag: true
     category: true
   card_author:
     enable: true
-    description:
+    description: "软件工程<br>Email: wanqi.h0201@gmail.com<br>https://github.com/aquarineeeee<br>https://gitee.com/aquarinee"
     button:
-      enable: true
+      enable: false
       icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/xxxxxx
+      text: 我的GitHub账号
+      link: https://github.com/aquarineeeee
   card_announcement:
-    enable: true
+    enable: false
     content: This is my Blog
   card_recent_post:
     enable: true
@@ -345,7 +345,7 @@ aside:
     # Sort of order. 1, asc for ascending; -1, desc for descending
     order: -1
   card_webinfo:
-    enable: true
+    enable: false
     post_count: true
     last_push_date: true
     sort_order:
