@@ -358,8 +358,6 @@ aside:
 # --------------------------------------
 right_aside:
   enable: true
-  # Custom content for right sidebar (support HTML)
-  custom: ""
 
 # --------------------------------------
 # Bottom right button
