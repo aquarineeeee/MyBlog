@@ -432,3 +432,31 @@
   if hexo-config('aside.card_webinfo.sort_order')
     .card-webinfo
       order: hexo-config('aside.card_webinfo.sort_order')
+
+#right-aside
+  width: 26%
+  padding-left: 15px
+
+  +maxWidth900()
+    display: none
+
+  .card-widget
+    @extend .cardHover
+    position: relative
+    overflow: hidden
+    margin-bottom: 20px
+    padding: 20px 24px
+    height: 715px
+
+  .item-headline
+    padding-bottom: 6px
+    font-size: 1.2em
+
+    span
+      margin-left: 6px
+
+  .right-aside-placeholder
+    text-align: center
+    color: var(--text-color)
+    opacity: 0.5
+    padding: 20px 0

@@ -49,6 +49,21 @@
     & > div
       width: 100% !important
 
+  // 双侧边栏时调整布局
+  if hexo-config('right_aside.enable')
+    & > div:not(.nc):first-child
+      +minWidth900()
+        width: 48%
+
+    #aside-content
+      +minWidth900()
+        width: 22%
+
+    #right-aside
+      +minWidth900()
+        width: 22%
+        order: 3
+
 // for apple device
 .apple
   #page-header.full_page

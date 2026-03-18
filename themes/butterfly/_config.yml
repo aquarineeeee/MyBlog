@@ -354,6 +354,13 @@ aside:
     # Leave it empty if you don't enable this feature
     runtime_date:
 
+# Right Aside Settings (Second Sidebar)
+# --------------------------------------
+right_aside:
+  enable: true
+  # Custom content for right sidebar (support HTML)
+  custom: ""
+
 # --------------------------------------
 # Bottom right button
 # --------------------------------------
