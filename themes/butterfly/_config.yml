@@ -200,7 +200,7 @@ toc:
   scroll_percent: true
 
 post_copyright:
-  enable: true
+  enable: false
   decode: false
   author_href:
   license: CC BY-NC-SA 4.0
@@ -284,7 +284,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description: "软件工程<br>Email: wanqi.h0201@gmail.com<br>https://github.com/aquarineeeee<br>https://gitee.com/aquarinee"
+    description: "软件工程<br>Email:wanqi.h0201@gmail.com<br>https://github.com/aquarineeeee<br>https://gitee.com/aquarinee"
     button:
       enable: false
       icon: fab fa-github
@@ -358,6 +358,8 @@ aside:
 # --------------------------------------
 right_aside:
   enable: true
+  display:
+    post: false  # 是否在文章页面显示
 
 # --------------------------------------
 # Bottom right button

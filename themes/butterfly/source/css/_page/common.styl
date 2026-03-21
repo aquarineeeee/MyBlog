@@ -50,19 +50,27 @@
       width: 100% !important
 
   // 双侧边栏时调整布局
-  if hexo-config('right_aside.enable')
+  &.double-aside
     & > div:not(.nc):first-child
       +minWidth900()
         width: 48%
+        order: 2
 
     #aside-content
       +minWidth900()
         width: 22%
+        order: 1
 
     #right-aside
       +minWidth900()
         width: 22%
         order: 3
+
+  // 单侧边栏（右侧边栏隐藏）时
+  &.single-aside
+    & > div:not(.nc):first-child
+      +minWidth900()
+        width: 70%
 
 // for apple device
 .apple
