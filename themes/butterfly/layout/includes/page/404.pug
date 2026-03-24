@@ -1,8 +1,19 @@
-- var top_img_404 = theme.error_404.background || theme.default_top_img
+- var left_img_404 = theme.error_404.left_img
+- var right_img_404 = theme.error_404.right_img
+- var error_subtitle = theme.error_404.subtitle || _p('error404')
 
-.error-content
-  .error-img
-    img(src=url_for(top_img_404) alt='Page not found')
-  .error-info
-    h1.error_title= '404'
-    .error_subtitle= theme.error_404.subtitle || _p('error404')
+.error-content.error-404-layout
+  .error-wrap
+    .error-left
+      if left_img_404
+        img(src=url_for(left_img_404) alt='404 left image')
+
+    .error-center
+      .error-title ERROR
+      .error-code 404
+      if error_subtitle
+        .error-subtitle= error_subtitle
+
+    .error-right
+      if right_img_404
+        img(src=url_for(right_img_404) alt='404 right image')

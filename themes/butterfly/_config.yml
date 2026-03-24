@@ -56,7 +56,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /img/avatar.png
   effect: false
 
 # Disable all banner images
@@ -66,7 +66,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img: 
+index_img: /img/top_img3.png
 
 # The banner image of archive page
 archive_img:
@@ -111,9 +111,11 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
+  enable: true
   subtitle: 'Page Not Found'
   background: /img/error-page.png
+  left_img: /img/hourglass.png
+  right_img: /img/error-cat.png
 
 post_meta:
   # Home Page
@@ -795,8 +797,8 @@ text_align_justify: false
 
 # Add a mask to the header and footer
 mask:
-  header: true
-  footer: true
+  header: false
+  footer: false
 
 # Loading Animation
 preloader:

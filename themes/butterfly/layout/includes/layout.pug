@@ -42,7 +42,7 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
     #body-wrap(class=pageType)
       include ./header/index.pug
 
-      - var showRightAside = theme.right_aside && theme.right_aside.enable && pageType !== 'post'
+      - var showRightAside = theme.right_aside && theme.right_aside.enable && globalPageType === 'home'
       - var layoutClass = showRightAside ? 'double-aside' : 'single-aside'
       main#content-inner.layout(class=hideAside class=layoutClass)
         if body
@@ -52,7 +52,7 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
           if theme.aside.enable && page.aside !== false
             include widget/index.pug
 
-        - var showRightAside = theme.right_aside && theme.right_aside.enable && pageType !== 'post'
+        - var showRightAside = theme.right_aside && theme.right_aside.enable && globalPageType === 'home'
         if showRightAside
           #right-aside.aside-content
             !=partial('includes/widget/card_right_aside', {}, {cache: true})

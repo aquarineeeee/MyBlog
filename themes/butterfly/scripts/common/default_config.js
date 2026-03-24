@@ -22,7 +22,7 @@ module.exports = {
   social: null,
   favicon: '/img/favicon.png',
   avatar: {
-    img: '/img/butterfly-icon.png',
+    img: '/img/avatar.png',
     effect: false
   },
   disable_top_img: false,
