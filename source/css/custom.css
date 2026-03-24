@@ -264,3 +264,9 @@
     font-size: 14px;
   }
 }
+
+/* 修改作者名字体 */
+.author-info-name {
+  font-family: 'Press Start 2P', monospace !important;
+  font-size: 1.2em !important;
+}
