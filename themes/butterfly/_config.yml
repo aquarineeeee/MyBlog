@@ -261,12 +261,14 @@ footer:
   nav:
   owner:
     enable: true
-    since: 2025
+    since: 2026
   # Copyright of theme and framework
   copyright:
-    enable: true
-    version: true
-  custom_text:
+    enable: false
+    version: false
+  custom_text: "WELCOME TO MY WEBSITE"
+
+
 
 # --------------------------------------
 # Aside Settings

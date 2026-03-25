@@ -9,7 +9,7 @@ categories:
   - 项目
 description: |
   纯C++实现重庆轨道交通的导航系统
-  项目链接：
+  项目链接：https://gitee.com/Reetr0/cq-metro
 comments: false
 copyright: false
 copyright_author: false
@@ -24,7 +24,8 @@ copyright_info: false
 ---
 
 ## 预览
-
+![导航系统预览](/images/metroline.png)
+（现在看来这个真的太简陋了，当时调QT的依赖真是调得晕头转向，不过好在导航功能还是能用的对吧！）
 
 ---
 

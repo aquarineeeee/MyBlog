@@ -47,14 +47,14 @@
   top: 8px;
   width: 8px;
   height: 8px;
-  background: #ff3333;
+  background: #9b6ee1;
   border-radius: 0;
   image-rendering: pixelated;
   box-shadow: 
-    2px 0 0 #ff3333,
-    -2px 0 0 #ff3333,
-    0 2px 0 #ff3333,
-    0 -2px 0 #ff3333;
+    2px 0 0 #9b6ee1,
+    -2px 0 0 #9b6ee1,
+    0 2px 0 #9b6ee1,
+    0 -2px 0 #9b6ee1;
   z-index: 1;
 }
 
@@ -110,7 +110,7 @@
     border-color: transparent;
   }
   50% {
-    border-color: #49b1f5;
+    border-color: #ffffff;
   }
 }
 
@@ -269,4 +269,12 @@
 .author-info-name {
   font-family: 'Press Start 2P', monospace !important;
   font-size: 1.2em !important;
+}
+
+/* 深色模式下顶部图纯黑色 */
+[data-theme='dark'] #page-header.full_page,
+[data-theme='dark'] #page-header.not-home-page,
+[data-theme='dark'] #page-header.post-bg {
+  background-color: #000 !important;
+  background-image: none !important;
 }
