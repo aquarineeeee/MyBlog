@@ -13,7 +13,7 @@ description: |
   Web开发基础与主流框架应用、前后端交互与文件传输、API调用与权限管理
   SpringBoot, maven, java, MySQL, redis, MyBatis, ORM框架
   项目链接：https://gitee.com/Reetr0/medicine-system（更详细有代码解析的文档在仓库文件夹里面）
-  已部署到阿里云：
+  已部署到腾讯云：http://118.24.140.232:8084/
 comments: false
 toc: true
 toc_number: false
@@ -35,10 +35,13 @@ toc_style_simple:
 ## 预览
 设计的时候考虑到属于医疗系统，登录时需要先勾选角色“患者/医生/管理员”再输入用户名密码，注册也需要（一个用户可能既是医生又是患者）
 ![登录页面](/images/login.png)
+测试账号：患者 毛毛 123456
 ![医生页面](/images/doctor.png)
+测试账号：医生 张三 123456
 ![患者页面](/images/patient.png)
 ![患者页面ai功能](/images/patient-ai.png)
 ![管理员页面](/images/admin1.png)
+测试账号：管理员 admin 123456
 ![管理员页面](/images/admin2.png)
 ![管理员页面](/images/admin3.png)
 
